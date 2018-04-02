@@ -3,7 +3,7 @@ class CategoriesController < GroupingController
   # show - inherited
   
   def index
-    @categories = Category.all
+    @category = Category.all
   end
   
   def show
